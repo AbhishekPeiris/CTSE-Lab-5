@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices-lab", "microservices-lab", "{B19939B8-6DCF-15DC-B6C9-523B7800B9A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "payment-service", "payment-service", "{0224D4FA-308F-1AE1-20CF-A48CBBC5500A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "microservices-lab\payment-service\PaymentService.csproj", "{397ADC40-526F-B59F-11E5-E2A64034DBBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{397ADC40-526F-B59F-11E5-E2A64034DBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397ADC40-526F-B59F-11E5-E2A64034DBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397ADC40-526F-B59F-11E5-E2A64034DBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397ADC40-526F-B59F-11E5-E2A64034DBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0224D4FA-308F-1AE1-20CF-A48CBBC5500A} = {B19939B8-6DCF-15DC-B6C9-523B7800B9A8}
+		{397ADC40-526F-B59F-11E5-E2A64034DBBB} = {0224D4FA-308F-1AE1-20CF-A48CBBC5500A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE6ACDDD-7E5D-4496-84CB-16B02C94CCC4}
+	EndGlobalSection
+EndGlobal
